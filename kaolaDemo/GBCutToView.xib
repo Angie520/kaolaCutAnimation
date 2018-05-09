@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="GBCutToView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login_img_bg" translatesAutoresizingMaskIntoConstraints="NO" id="o8O-MZ-bML">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="C3w-HF-FJZ">
+                    <rect key="frame" x="0.0" y="218" width="240" height="360"/>
+                    <color key="backgroundColor" red="0.80000000000000004" green="0.66666666669999997" blue="0.47843137250000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="240" id="DPW-Lx-IRb"/>
+                        <constraint firstAttribute="height" constant="360" id="z31-7E-SJT"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1a0-kd-0YN">
+                    <rect key="frame" x="58.5" y="182" width="258" height="118"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="118" id="1oB-Ds-AnY"/>
+                        <constraint firstAttribute="width" constant="258" id="G0F-ne-DuP"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="kuD-A4-71F">
+                    <rect key="frame" x="58" y="108" width="258" height="151"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="258" id="0x4-BC-bJH"/>
+                        <constraint firstAttribute="height" constant="151" id="TGB-B4-PeF"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="uJJ-ZK-9oy">
+                    <rect key="frame" x="0.0" y="354" width="375" height="313"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="o8O-MZ-bML" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="3iD-HS-wHe"/>
+                <constraint firstItem="1a0-kd-0YN" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="6Qb-G7-I8K"/>
+                <constraint firstItem="uJJ-ZK-9oy" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="354" id="6by-bK-fKE"/>
+                <constraint firstItem="kuD-A4-71F" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Dlf-dS-xof"/>
+                <constraint firstItem="C3w-HF-FJZ" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="198" id="Kmk-nS-3Mj"/>
+                <constraint firstItem="1a0-kd-0YN" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="162" id="Mqo-hh-YjO"/>
+                <constraint firstItem="kuD-A4-71F" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="88" id="XO2-ik-MVC"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="o8O-MZ-bML" secondAttribute="trailing" id="ZNB-6f-Lp3"/>
+                <constraint firstItem="o8O-MZ-bML" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="dMM-hZ-35E"/>
+                <constraint firstItem="C3w-HF-FJZ" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="sNv-AW-bEf"/>
+                <constraint firstItem="uJJ-ZK-9oy" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="uhs-RK-ikp"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="uJJ-ZK-9oy" secondAttribute="trailing" id="v0C-CS-Q18"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="uJJ-ZK-9oy" secondAttribute="bottom" id="wRQ-1T-Q44"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="o8O-MZ-bML" secondAttribute="bottom" id="wds-6C-OLK"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="backImage" destination="o8O-MZ-bML" id="StP-au-OOf"/>
+                <outlet property="bottomImageView" destination="uJJ-ZK-9oy" id="CAU-Jy-9Br"/>
+                <outlet property="bottomViewTopContraint" destination="6by-bK-fKE" id="InQ-ky-2K4"/>
+                <outlet property="leftImageView" destination="C3w-HF-FJZ" id="Ucc-rr-zRw"/>
+                <outlet property="leftViewLeftConstraint" destination="sNv-AW-bEf" id="VQg-ay-Cpu"/>
+                <outlet property="middleImageView" destination="1a0-kd-0YN" id="IGp-EQ-MTB"/>
+                <outlet property="topImageView" destination="kuD-A4-71F" id="sWG-M1-PB2"/>
+                <outlet property="topViewTopContraint" destination="XO2-ik-MVC" id="d1X-Z9-NS7"/>
+            </connections>
+            <point key="canvasLocation" x="35.5" y="53.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="login_img_bg" width="320" height="568"/>
+    </resources>
+</document>
